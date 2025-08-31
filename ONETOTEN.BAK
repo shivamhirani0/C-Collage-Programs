@@ -1,0 +1,26 @@
+// one to ten numbers
+#include <iostream.h>
+#include <conio.h>
+  class ten
+{
+    public:
+    int a,i; // data member
+
+    void show() //function
+    {
+      for(i=1;i<=1000;i++)
+      {
+	cout<<i<<"Ram ";
+      }
+      }
+};
+
+void main()
+{
+  clrscr();
+
+  ten p;     //object
+  p.show(); //function
+
+  getch();
+}
